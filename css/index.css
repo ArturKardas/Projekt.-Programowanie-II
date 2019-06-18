@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+body{
+    background-color: grey;
+    font-family: 'Righteous', cursive !important;
+    margin: 0 auto;
+
+}
+
+h1{
+    color: green;
+}
+
+h2{
+    font-size: 2vw;
+    color: black;
+}
+#tableHeader{
+    background-color:gray;
+    color: white;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+#tableTerminarz td:nth-child(1),#tableTerminarz td:nth-child(4){
+    width: 40%;
+}
+
+#tableTerminarz tr:nth-child(2){
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+#tableTerminarz td,#tableTerminarz tr{
+    border: 0.125vw solid black;
+    text-align: center;
+    height: 3vw ;
+    font-size: 1.5vw;
+}
+
+#tableTerminarz{
+    border: 0.25vw solid black;
+    width: 72.5vw;
+    height: 27vw;
+    border-spacing: 0px;
+
+}
+
+
+#kadra{
+    display: none;
+}
+
+#terminarz{
+    display: none;
+}
+
+#tabela{
+    display: none;
+}
+
+#up{
+    /*border-radius: 15px;*/
+    background-color: black;
+    height: 5vw;
+    width: 100%;
+    position: sticky;
+    display: inline-flex;
+}
+
+#logo{
+    margin-left: 10vw;
+    width: 20vw;
+    height: 7vw;
+    position: absolute;
+    background-color: green;
+    text-align: center;
+    cursor: pointer;
+}
+
+#logo_napis{
+    color: white;
+    font-size: 4vw;
+    font-weight: bold;
+    margin: 1vw;
+    height: 5vw;
+
+}
+
+#menu{
+    height: 5vw;
+
+    margin-left: 35vw;
+    width: 50vw;
+    text-align: right;
+    display: inline-flex;
+}
+
+.zaloguj{
+    font-size: 1vw !important;
+    width: 20vw !important;
+
+}
+
+.zal{
+    width: 4vw;
+    float: left;
+    margin-right: 0.5vw;
+}
+.zaloguj input[type=submit]{
+    height: 1.25vw;
+    margin: 0vw;
+    font-size: 0.9vw;
+    margin-left: 12vw;
+    padding: 0vw;
+    float: left;
+    border: 0vw;
+}
+
+
+.zaloguj input[type=text],
+.zaloguj input[type=password]{
+    width:10vw;
+    height: 1.5vw;
+    float: left;
+    padding: 0vw;
+    border: 0vw;
+}
+
+#zaloguj{
+    margin: 0vw !important;
+    padding: 0vw !important;
+    width: 30vw;
+}
+
+.linia{
+    width: 20;
+    height: 1.5vw;
+    padding: 0.125vw;
+    font-size: 1vw !important;
+
+}
+
+.menu{
+    color: rgb(172, 169, 169);
+    font-size: 3vw;
+    margin: 1vw;
+    cursor: pointer;
+}
+
+#main{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    min-height: 94vh;
+    padding: 3vw;
+    background-color: white;
+}
+
+
+.new{
+    width: 70vw;
+    height: 27vw;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1vw;
+}
+
+.header{
+    margin: 0.5vw;
+    font-size: 4vw;
+    height: 7vw;
+}
+
+.newsHeader{
+    margin: 0.5vw;
+    font-size: 2vw;
+    height: 3vw;
+}
+
+.newsContent{
+    margin: 0.5vw;
+    width: 34vw;
+    height: 22vw;
+    font-size: 2vw;
+    float: left;
+}
+
+#newsImg{
+    width: 38vw !important;
+}
+
+#newsText{
+    width: 30vw !important;
+}
+
+.test-block{
+    width: 20vw;
+    border: 1vw solid green;
+    background: white;
+    text-align: center;
+    color: grey;
+    font-size: 1.5vw;
+    padding: 1vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 2vw;
+}
+
+.wyloguj{
+    font-size: 2vw !important;
+    color: grey;
+    width: 17vw;
+}
+
